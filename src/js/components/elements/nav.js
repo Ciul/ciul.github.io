@@ -6,8 +6,7 @@ const Nav = ({ location }) =>
     <Menu as='nav' borderless>
         <Menu.Menu>
             <Menu.Item header as={Link} to='/'>
-                {/*Luis Carlos Osorio Jayk*/}
-                Home
+                Luis Carlos Osorio Jayk
             </Menu.Item>
         </Menu.Menu>
 
