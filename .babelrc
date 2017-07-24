@@ -1,12 +1,11 @@
 {
     "presets": [
-        "env",
         "es2015",
-        "stage-0",
+        "es2017",
         "react"
     ],
     "plugins": [
-        "transform-export-extensions",
-        ["transform-class-properties", { "spec": true }]
+        "syntax-dynamic-import",
+        "syntax-async-functions"
     ]
 }

@@ -19,9 +19,6 @@ node_modules
 # Bower
 bower_components
 
-# Distribution files (should be created by building)
-dist/
-
 # Yarn
 .yarn-integrity
 yarn.lock
