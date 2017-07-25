@@ -10,6 +10,11 @@ module.exports = {
     entry: {
         app: './index.js'
     },
+    devServer: {
+        watchOptions: {
+            poll: true
+        }
+    },
     output: {
         path:           path.resolve(__dirname, 'docs'),
         filename:       '[name]-[chunkhash].js',
