@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Blog = () => {
+const NotFound = () => {
 
     return (
         <div>
-            <div>Este es el Blog</div>
+            <div>Oops something happened</div>
             <Link to='/'>Home</Link>
         </div>
     )
 }
 
-export default Blog
+export default NotFound
